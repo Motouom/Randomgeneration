@@ -1,0 +1,9 @@
+version: '4.1' # 3.x 4.x
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5000"
